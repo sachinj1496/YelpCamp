@@ -1,0 +1,17 @@
+<% include .\partials\header %>
+
+<div class="landing camp">
+    <h1><%= campGround.name%></h1>
+    <img src="<%= campGround.image%>">
+    <p>
+        <%= campGround.description%>
+    </p>
+    <% campGround.comments.forEach(function(comment){ %>
+        <p>
+            <strong><%= comment.author %></strong>-<%=comment.text%>
+        </p>
+    <% }); %>
+    <a href="/campgrounds">Go Back</a>
+</div>
+
+<% include .\partials\footer %>

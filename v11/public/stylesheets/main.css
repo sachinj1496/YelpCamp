@@ -1,0 +1,32 @@
+.thumbnail img{
+    width: 100%;
+}
+.delete-form {
+    display: inline;
+}
+.caption-full{
+    margin-top: 15px;
+}
+.landing{
+    margin-left: 15px;
+}
+.aligning{
+    text-align: center;
+}
+.camp{
+    margin-top: 70px;
+}
+.new{
+    display: block;
+    width: 35%;
+    margin:10px 33%;
+}
+.navbar-light{
+    background-color: #323754;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
