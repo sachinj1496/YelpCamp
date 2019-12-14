@@ -23,7 +23,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 app.use(flash());
 
-mongoose.connect("mongodb://localhost/yelp_camp_v11", { useUnifiedTopology: true });
+mongoose.connect("mongodb://localhost/yelp_camp_v11", { useNewUrlParser: true, useUnifiedTopology: true });
 
 //PASSPORT CONFIGURATION 
 app.use(require("express-session")({
